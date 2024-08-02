@@ -1,0 +1,4 @@
+{
+    "enable_explicit_garbage_collection": false,
+    "enable_plugin_runtime_groups": true
+}

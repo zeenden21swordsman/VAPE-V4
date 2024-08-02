@@ -1,0 +1,130 @@
+:root {
+    --uxp-host-font-size: 13px;
+    --uxp-host-font-size-smaller: 12px;
+    --uxp-host-font-size-larger: 14px;
+}
+@media(prefers-color-scheme: lightest){
+    :root{
+        /* P0 */
+        --uxp-host-background-color: #F0F0F0;
+        --uxp-host-text-color: #4B4B4B;
+        --uxp-host-border-color: #D1D1D1;
+        --uxp-host-link-text-color: #4B9CF5;
+        --uxp-host-widget-hover-background-color: #CECECE;
+        --uxp-host-widget-hover-text-color: #4B4B4B;
+        --uxp-host-widget-hover-border-color: #CECECE;
+
+        /* P1 */
+        --uxp-host-text-color-secondary: #606060;
+        --uxp-host-link-hover-text-color: #4B4B4B;
+        --uxp-host-label-text-color: #4B4B4B;
+
+        --uxp-host-popover-background-color: #F0F0F0;
+        --uxp-host-popover-border-color: #D3D3D3;
+        --uxp-host-heading-text-color: #585858;
+        --uxp-host-dropdown-background-color: #F0F0F0;
+        --uxp-host-dropdown-border-color: #D3D3D3;
+        --uxp-host-dropdown-text-color: #4B4B4B;
+        --uxp-host-dropdown-hover-background-color: #E9E9E9;
+        --uxp-host-toggle-text-color: #2A2A2A;
+        --uxp-host-toggle-background-color: #FCFCFC;
+        --uxp-host-toggle-border-color: #CCCCCC;
+        --uxp-host-toggle-selected-text-color: #505050;
+        --uxp-host-toggle-selected-background-color: #BFBFBF;
+        --uxp-host-text-button-text-color: #505050;
+    }
+}
+@media(prefers-color-scheme: light){
+    :root{
+        /* P0 */
+        --uxp-host-background-color: #B8B8B8;
+        --uxp-host-text-color: #424242;
+        --uxp-host-border-color: #9C9C9C;
+        --uxp-host-link-text-color: #4B9CF5;
+        --uxp-host-widget-hover-background-color: #9D9D9D;
+        --uxp-host-widget-hover-text-color: #424242;
+        --uxp-host-widget-hover-border-color: #9D9D9D;
+        
+        /* P1 */
+        --uxp-host-text-color-secondary: #424242;
+        --uxp-host-link-hover-text-color: #424242;
+        --uxp-host-label-text-color: #424242;
+
+        --uxp-host-popover-background-color: #B8B8B8;
+        --uxp-host-popover-border-color: #CACACA;
+        --uxp-host-heading-text-color: #3F3F3F;
+        --uxp-host-dropdown-background-color: #B8B8B8;
+        --uxp-host-dropdown-border-color: #CACACA;
+        --uxp-host-dropdown-text-color: #4B4B4B;
+        --uxp-host-dropdown-hover-background-color: #B3B3B3;
+        --uxp-host-toggle-text-color: #0F0F0F;
+        --uxp-host-toggle-background-color: #D1D1D1;
+        --uxp-host-toggle-border-color: #949494;
+        --uxp-host-toggle-selected-text-color: #4B4B4B;
+        --uxp-host-toggle-selected-background-color: #A5A5A5;
+        --uxp-host-text-button-text-color: #4B4B4B;
+    }
+}
+@media(prefers-color-scheme: dark){
+    :root {
+
+        /* P0 */
+        --uxp-host-background-color: #535353;
+        --uxp-host-text-color: #FFFFFF;
+        --uxp-host-border-color: #454545;
+        --uxp-host-link-text-color: #4B9CF5; 
+        --uxp-host-widget-hover-background-color: #5B5B5B;
+        --uxp-host-widget-hover-text-color: #FFFFFF;
+        --uxp-host-widget-hover-border-color: #5B5B5B;
+
+        /* P1 */
+        --uxp-host-text-color-secondary: #E5E5E5;   
+        --uxp-host-link-hover-text-color: #FFFFFF; 
+        --uxp-host-label-text-color: #FFFFFF;
+
+        --uxp-host-popover-background-color: #535353;
+        --uxp-host-popover-border-color: #5A5A5A;
+        --uxp-host-heading-text-color: #F3F3F3;
+        --uxp-host-dropdown-background-color: #535353;
+        --uxp-host-dropdown-border-color: #5A5A5A;
+        --uxp-host-dropdown-text-color: #FFFFFF;
+        --uxp-host-dropdown-hover-background-color: #5D5D5D;
+        --uxp-host-toggle-text-color: #F0F0F0;
+        --uxp-host-toggle-background-color: #444444;
+        --uxp-host-toggle-border-color: #666666;
+        --uxp-host-toggle-selected-text-color: #E3E3E3;
+        --uxp-host-toggle-selected-background-color: #6B6B6B;
+        --uxp-host-text-button-text-color: #E3E3E3;
+    }
+}
+@media(prefers-color-scheme: darkest){
+    :root{
+        /* P0 */ 
+        --uxp-host-background-color: #323232;
+        --uxp-host-text-color: #FFFFFF;
+        --uxp-host-border-color: #292929;
+        --uxp-host-link-text-color: #4B9CF5;
+        --uxp-host-widget-hover-background-color: #3D3D3D;
+        --uxp-host-widget-hover-text-color: #FFFFFF;
+        --uxp-host-widget-hover-border-color: #3D3D3D;
+
+        /* P1 */
+        --uxp-host-text-color-secondary: #9B9B9B;
+        --uxp-host-link-hover-text-color: #FFFFFF;
+        --uxp-host-label-text-color: #FFFFFF;
+
+        --uxp-host-popover-background-color: #323232;
+        --uxp-host-popover-border-color: #494949;
+        --uxp-host-heading-text-color: #E7E7E7;
+        --uxp-host-dropdown-background-color: #323232;
+        --uxp-host-dropdown-border-color: #494949;
+        --uxp-host-dropdown-text-color: #FFFFFF;
+        --uxp-host-dropdown-hover-background-color: #434343;
+        --uxp-host-toggle-text-color: #E1E1E1;
+        --uxp-host-toggle-background-color: #2A2A2A;
+        --uxp-host-toggle-border-color: #474747;
+        --uxp-host-toggle-selected-text-color: #C8C8C8;
+        --uxp-host-toggle-selected-background-color: #474747;
+        --uxp-host-text-button-text-color: #C8C8C8;
+    }
+}
